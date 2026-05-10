@@ -1,8 +1,15 @@
-//This is the code to use an ultrasonic sensor, the first part of our full project!
-//We will simple make it so that the sensor can read distance to the serial monitor, and give a warning if an object is closer than 6cm
-//In this version we will add an oled screen to give the distance in real time, and a buzzer
-//In this version we will add the last part with a micro servo so the sensor can rotate!
-
+/* * PROJECT: ESP32 Rotating Radar Scanner
+ * -----------------------------------------------------------
+ * Developed by: Nayaab Rahman
+ * * WHAT IT DOES: 
+ * Uses an ultrasonic sensor and a servo motor to scan for 
+ * objects in a 180-degree arc.
+ * * FEATURES:
+ * - Displays distance and angle on an OLED screen.
+ * - Sounds an alarm (Buzzer+LED) if an object is within 14cm.
+ * - Freezes movement when a target is detected.
+ * -----------------------------------------------------------
+ */
 
 //Libraries for OLED screen
 #include <Wire.h>
