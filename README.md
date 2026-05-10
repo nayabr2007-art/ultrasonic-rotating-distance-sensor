@@ -18,7 +18,7 @@ This project uses an ESP32 to control an HC-SR04 ultrasonic sensor mounted on a 
 6. LED 
 
 ## 📐 Link to Wokwi
-https://wokwi.com/projects/463644443630694401 
+https://wokwi.com/projects/463644443630694401
 
 ## 🔧 Challenges 
 1. Torque Stabilization:** Addressed mechanical jitter by securing the servo base to minimize Newton's third law reactions during rotation. 
