@@ -17,17 +17,13 @@ This project uses an ESP32 to control an HC-SR04 ultrasonic sensor mounted on a 
 5. Active Buzzer 
 6. LED 
 
-
-
-## 📐 Circuit Diagram/Link to Wowki
-
-
-Link to Wowki: https://wokwi.com/projects/463644443630694401 
+## 📐 Link to Wokwi
+https://wokwi.com/projects/463644443630694401 
 
 ## 🔧 Challenges 
 1. Torque Stabilization:** Addressed mechanical jitter by securing the servo base to minimize Newton's third law reactions during rotation. 
 2. Signal Noise:** Optimized sensor "ping" timing to reduce false positives during motor movement. 
 
 ## 📝 Small Note 
-In the Wowki simulation the radar does not move with the servo, but in the physical setup make sure they are connected!
+In the Wokwi simulation the radar does not move with the servo, but in the physical setup make sure they are connected!
 
